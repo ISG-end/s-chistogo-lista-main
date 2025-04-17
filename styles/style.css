@@ -21,7 +21,7 @@ h1, h2, h3, h4, h5, h6, p, ul, ol, blockquote {
     height: 15.43px;
 }
 
-ul header__menu-item{
+.header__menu ul{
     list-style: none;
 }
 
@@ -80,12 +80,13 @@ a {
     display: flex;
     flex-direction: column;
     gap: 24px;
+    padding-bottom: 34px;
 }
 
 .content-section__subtitle {
     background-color: #FEE42A;
     color: #131313;
-    padding: 50px 0px;
+    padding: 42px 0px;
     
 }
 
@@ -126,4 +127,83 @@ a {
 .content-section__list-item {
     line-height: 21.6px;
 
+}
+
+.content-section__reason {
+background-color: black;
+    color: #FFFFFF;
+    padding: 38px 0px;
+}
+
+.content-reason__list-item {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    line-height: 21.6px;
+    background-color: #343434;
+    border-radius: 30px;
+    padding: 20px 20px;
+}
+
+.reason_img {
+    width: 100px;
+    height: 100px;
+    line-height: 135%;
+}
+
+.content-reason__list {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    padding: 0 20px;
+}
+
+.content-reason__list-item_middle {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    line-height: 21.6px;
+    background-color: #FEE42A;
+    border-radius: 30px;
+    padding: 22px 20px;
+    color: #131313;
+}
+
+.content-section__list-accent_reason {
+    font-family: 'EB Garamond', serif;
+    font-weight: 500;
+    font-size: 22px;
+} 
+
+.polya {
+    font-size: 20px;
+}
+
+.content-section__list-accent_reason_middle {
+    font-family: 'EB Garamond', serif;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 135%;
+}
+
+.footer__copy{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: #ffffff;
+    padding: 20px 20px;
+    background-color: black;
+    border-top: solid 1px #FEE42A;
+    margin-top: 24px;
+}
+
+.footer__links {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+}
+
+.footer__links a{
+    font-size: 14px;
+    text-decoration: none;
 }
