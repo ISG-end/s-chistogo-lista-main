@@ -1,6 +1,7 @@
 # s-chistogo-lista-main
 
-
+## Деплой
+https://isg-end.github.io/s-chistogo-lista-main/
 
 ## Макет
 https://www.figma.com/proto/6lzQ3fg6J9dZCLteWnQ3MZ?node-id=0-1&t=p9M6JGiuDXSO9UwP-6
